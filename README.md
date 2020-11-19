@@ -1,3 +1,4 @@
 # FileManagerCopyAllChildren
 
-A description of this package.
+    FileManager.default.copyAllChildren(from: <<Origin URL>>,  target: <<destination URL>>)
+
