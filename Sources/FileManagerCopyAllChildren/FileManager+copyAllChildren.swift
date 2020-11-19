@@ -13,7 +13,7 @@ extension FileManager {
     ///   - ignoreHiddenFiles: Pass `true ` to ignore any hidden files in the origin directory and only copy the non-hidden files and directories.
     ///
     /// - Throws: Can throw a `FileManagerCopyAllChildrenError` if something goes wrong or is impossible.
-    func copyAllChildren(from origin: URL, to target: URL, deleteOriginWhenDone shouldDeleteOrigin: Bool = false, ignoreHiddenFiles shouldIgnoreHiddenFiles: Bool = false) throws {
+    public func copyAllChildren(from origin: URL, to target: URL, deleteOriginWhenDone shouldDeleteOrigin: Bool = false, ignoreHiddenFiles shouldIgnoreHiddenFiles: Bool = false) throws {
 
         // First check that the origin is a directory and not empty.
         
